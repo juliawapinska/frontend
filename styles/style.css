@@ -1,5 +1,39 @@
 /* CSS Document */
+
 *, *::after, *::before {
   box-sizing:border-box;  
 }
 
+body{
+   background-color: black;
+    
+}
+
+body:nth-of-type(2){
+	background-color: white;
+}
+
+h1{
+    font-family: sans-serif;
+    font-size: 2em;
+    display: flex;
+    color: white;
+    
+}
+/*
+a {
+    text-decoration: none;
+    color: white;
+   
+}
+ul{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    color: white; 
+}
+
+*/
