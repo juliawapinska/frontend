@@ -12,7 +12,7 @@ main {
 	justify-content: center;
 	align-content: space-between;
 	align-items: flex-start;
-	flex: 80%;
+	flex: 70%;
 	margin: 5em 0 5em 0;
 	padding: 0;
 }
@@ -30,6 +30,8 @@ nav {
 	flex-flow: column;
 	justify-content: flex-start;
 	align-items: flex-start;
+	padding-right: 6em;
+	flex: 30%;
 }
 
 h1 {
@@ -50,28 +52,9 @@ a:visited {
 	color: black;
 }
 
-/*
-div.ham {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: flex-end;
-	align-items: flex-end;
-	margin: 0;
-	padding: 0;
+a:hover{
+	padding-left: .5em;
 }
-*/
-
-/*
-div.ham > li{
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: flex-end;
-	align-items: flex-end;
-	margin: 0;
-	padding: 0;
-}
-*/
-
 
 h1 {
 	display: flex;
@@ -93,6 +76,8 @@ nav > ul {
 
 }
 
+
+
 ul.second {
 	text-decoration: none;
 	font-family: Lora;
@@ -109,18 +94,19 @@ ul.second {
 
 ul.items {
 	display: flex;
-	flex: 0 0 50%;
+	flex: 50%;
 	max-width: 100%;
 	flex-flow: row wrap;
 	justify-content: flex-start;
 	align-items: center;
 	border: 0;
 	margin: 0;
+	padding: 0;
 }
 
 img {
-	width: 50%;
-	height: 50%;
+	width: 80%;
+	height: 80%;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: flex-start;
@@ -135,9 +121,11 @@ p {
 	align-items: center;
 	text-decoration: none;
 	font-family: Lora;
-	font-size: .7em;
-	padding: 0;
+	font-size: .6em;
+/*	padding: 2em;*/
 	margin: 0;
+	padding-right: 6em;
+	padding-left: 6em;
 }
 
 p:nth-of-type(2) {
@@ -145,37 +133,28 @@ p:nth-of-type(2) {
 }
 
 ul.items > li {
-	flex: 0 0 33%;
+	flex: 33%;
 	max-width: 100%;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
 	align-items: center;
-	align-content: space-around;
+	padding: 0;
+	margin: 0;
+	
 }
 
-@media (min-width: 25em) {
+@media (min-width: 30em) {
 	ul.items > li {
 		flex: 50%;
 	}
 
-/*
-	div.ham {
-		display: none;
-	}
-*/
 }
 
-@media (min-width: 45em) {
+@media (min-width: 55em) {
 	ul.items > li {
 		flex: 33%;
 	}
-
-/*
-	div.ham {
-		position: absolute;
-	}
-*/
 }
 
 	footer {
@@ -192,15 +171,19 @@ ul.items > li {
 		align-content: space-evenly;
 		text-decoration: none;
 		list-style: none;
+		padding-bottom: 4em;
 	}
 
 	ul.stick {
-		position: sticky;
-		top: 0;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
 		background-color: black;
 		display: flex;
 		flex: 0 0 100%;
 		justify-content: center;
+		align-items: center;
 		text-decoration-color: white;
 		text-decoration: none;
 		list-style: none;
