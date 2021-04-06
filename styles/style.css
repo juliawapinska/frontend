@@ -72,6 +72,11 @@ nav {
 	align-items: flex-start;
 	padding-right: 6em;
 	flex: 30%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
 }
 
 nav > ul {
@@ -86,10 +91,13 @@ nav > ul {
 	padding-left: 4.5em;
 
 }
+
 nav.toonMenu{
 	display: flex;
+	
 }
-]
+
+
 ul.second {
 	text-decoration: none;
 	font-family: Roboto;

@@ -1,13 +1,10 @@
-/*eslint-env browser*/
-/*eslint 'no-console':0*/
 
+var deButton = document.querySelector(".ham");
+var Menu = document.querySelector(".menu");
 
-
-var deButton = document.querySelector("ham");
-
-function ToonMenu{
-	let Menu = document.querySelector("menu");
-	hetFormulier.classList.toggle("toonMenu");
+function ToonMenu(){
+	
+	Menu.classList.toggle("toonMenu");
 }
 
 deButton.addEventListener("click", ToonMenu);
