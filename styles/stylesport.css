@@ -46,8 +46,8 @@ nav {
 nav.toonMenu{
 	display: flex;
 	transform: translateX(0);
-	background-color: red;
 	transition: transform 1s ease;
+	background-color: white;
 }
 
 div {
@@ -97,6 +97,7 @@ h1 {
 	padding-left: 1.2em;
 	letter-spacing: .2em;
 	padding-bottom: 1em;
+
 }
 
 a {
@@ -202,10 +203,6 @@ ul.items > li {
 	div {
 		display: flex;
 	}
-
-	nav {
-		display: none;
-	}
 }
 
 @media (min-width: 55em) {
@@ -219,6 +216,8 @@ ul.items > li {
 
 	nav {
 		display: flex;
+		position: static;
+		transform: translateX(0);
 	}
 }
 
