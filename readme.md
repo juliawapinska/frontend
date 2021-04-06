@@ -6,57 +6,33 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. https://codepen.io/shooft/pen/PoNQwXY
+2. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+3. https://www.w3schools.com/
 
 
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
-
-**Screenshot(s):**
-
--screenshot(s) van je eindresultaat-
-
-
+Lastig om ul.items goed te krijgen, nog begin maken met css.
+Sticky footer, lukte niet
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
-
+Uitlijnen items en nav naast elkaar lastig, 
 
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+Begin met css, feedback gevraagd daarvoor 
+hoe doe je background met css. 
 
 
 
 ## Voortgang 1 (week 3)
+Begin maken met html, hoe beter li <a> maken. 
 
-### Stand van zaken
 
--dit ging goed & dit was lastig-
-
-**Screenshot(s):**
-
--screenshot(s) van hoe ver je bent met korte uitleg-
-
-### Agenda voor meeting
-
--samen met je groepje opstellen-
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| an dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-### Verslag van meeting
-
--na afloop snel uitkomsten vastleggen-
 
 
 

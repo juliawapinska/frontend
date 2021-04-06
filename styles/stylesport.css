@@ -46,7 +46,7 @@ div {
 	position: absolute;
 	padding: .8em .5em 0 0;
 	right: 2em;
-	
+
 }
 
 div > li {
@@ -54,14 +54,14 @@ div > li {
 	display: flex;
 	margin: 0;
 	padding-right: .5em;
-	
+
 }
 
 li.search {
 	padding-top: .3em;
 }
 
-li.menu {
+li.ham {
 	padding-top: .4em;
 }
 
@@ -86,7 +86,6 @@ h1 {
 
 a {
 	text-decoration: none;
-
 }
 
 a:visited {
@@ -109,7 +108,6 @@ nav > ul {
 	padding-left: 4.5em;
 
 }
-
 
 ul.second {
 	text-decoration: none;
@@ -136,6 +134,10 @@ ul.items {
 	margin: 0;
 	padding: 2.3em 2em 0 2em;
 
+}
+
+nav.toonMenu{
+	display: flex;
 }
 
 img {
@@ -183,10 +185,12 @@ ul.items > li {
 	ul.items > li {
 		flex: 50%;
 	}
-	div{
+
+	div {
 		display: flex;
 	}
-	nav{
+
+	nav {
 		display: none;
 	}
 }
@@ -195,10 +199,12 @@ ul.items > li {
 	ul.items > li {
 		flex: 33%;
 	}
-	div{
+
+	div {
 		display: none;
 	}
-	nav{
+
+	nav {
 		display: flex;
 	}
 }

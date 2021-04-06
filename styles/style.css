@@ -86,11 +86,14 @@ nav > ul {
 	padding-left: 4.5em;
 
 }
-
+nav.toonMenu{
+	display: flex;
+}
+]
 ul.second {
 	text-decoration: none;
 	font-family: Roboto;
-	font-weight: 300;
+	font-weight: 100;
 	font-size: .7em;
 	list-style: none;
 	display: flex;
@@ -99,6 +102,7 @@ ul.second {
 	padding-top: 5em;
 
 }
+
 
 
 a {
@@ -119,10 +123,9 @@ a:hover {
 		div{
 		display: flex;
 	}
-		nav{
+	nav{
 		display: none;
 	}
-
 }
 
 @media (min-width: 55em) {
