@@ -52,7 +52,7 @@ div {
 	padding-right: .5em;
 	padding-top: 2em;
 	right: 2em;
-	
+
 }
 
 div > li {
@@ -62,7 +62,7 @@ div > li {
 	height: 60%;
 	width: 60%;
 	padding-right: 2.5em;
-	
+
 }
 
 
@@ -95,11 +95,11 @@ nav > ul {
 
 }
 
-nav.toonMenu{
+nav.toonMenu {
 	display: flex;
 	transform: translateX(0);
 	transition: transform 1s ease;
-	background-color: black;
+/*	background-color: black;*/
 }
 
 
@@ -131,17 +131,18 @@ a:hover {
 }
 
 @media (min-width: 30em) {
-		div{
+	div {
 		display: flex;
 	}
 
 }
 
 @media (min-width: 55em) {
-		div{
+	div {
 		display: none;
 	}
-		nav {
+
+	nav {
 		display: flex;
 		position: static;
 		transform: translateX(0);
